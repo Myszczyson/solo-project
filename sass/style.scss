@@ -449,6 +449,7 @@ body {
   background-color: #e68a00;
   color: white;
   border-radius: 1px;
+  z-index: 2;
 }
 
 .pages .links .list .button:hover {
@@ -728,10 +729,23 @@ body {
     padding: 0;
   }
 
+  .pages .links .list {
+    padding: 20px;
+  }
+
   .pages .links .list ul li {
     flex-direction: column;
     position: relative;
   }
+
+  .pages .links .list ul li .name {
+    width: 100%;
+  }
+
+  .pages .links .list ul li .hyperlink {
+    width: 100%;
+  }
+
 
   .pages .links .list ul li .icons {
     position: absolute;
@@ -739,5 +753,22 @@ body {
     padding-bottom: 120px;
     padding-left: 130px;
     top: 5;
+  }
+
+  .pages .links .list ul li{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  .pages .links .list ul li .icons {
+    padding-top: 20px;
+    padding-left: 100px;
+  }
+
+  @media (max-width: 280px) {
+    .pages .links .list ul li .icons {
+      padding-left: 80px;
+    }
   }
 }
