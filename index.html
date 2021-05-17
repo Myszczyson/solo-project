@@ -1,0 +1,147 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soloproject</title>
+  <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="topbar">
+      <div class="container">
+        <div class="wallet">
+          <i class="fas fa-wallet"></i><h2>$1,500.00</h2><i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="bell" >
+          <i class="far fa-bell"></i>
+        </div>
+        <div class="user">
+          <i class="far fa-user-circle"></i><p>Leonardo Dicaprio</p>
+        </div>
+        <div class="logout">
+          <i class="fas fa-sign-out-alt"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar" data-target="hamburgerSidebar">
+      <div class="title"><h2 class="hidden">Just do it</h2><i class="fas fa-bars hamburger"></i></div>
+      <div class="mobile-topbar">
+        <div class="container">
+          <div class="bell" >
+            <i class="far fa-bell"></i>
+          </div>
+          <div class="user hidden">
+            <i class="far fa-user-circle"></i><p>Leonardo Dicaprio</p>
+          </div>
+          <div class="wallet hidden">
+            <i class="fas fa-wallet"></i><h3>$1,500.00</h3><i class="fas fa-chevron-down"></i>
+          </div>
+        </div>
+      </div>
+      <ul>
+        <li><a href=""><i class="far fa-star"></i><p class="hidden">General</p></a></li>
+        <li><a href=""><i class="fas fa-align-center"></i><p class="hidden">Details</p></a></li>
+        <li><a href=""><i class="fas fa-link"></i><p class="hidden">Links</p></a></li>
+        <li><a href=""><i class="fas fa-th-list"></i><p class="hidden">Banners</p></a></li>
+        <li><a href=""><i class="far fa-user"></i><p class="hidden">Personal Data</p></a></li>
+        <li><a href=""><i class="fas fa-hand-holding-usd"></i><p class="hidden">Payout</p></a></li>
+        <li><a href=""><i class="far fa-arrow-alt-circle-left"></i><p class="hidden">Postback</p></a></li>
+      </ul>
+      <div class="massanger">
+          <h3 class="hidden">YOUR MANAGER</h3>
+          <div class="manager">
+            <img src="./images/manager.png">
+            <p>John C.</p>
+          </div>
+      </div>
+      <div class="mobile-logout">
+        <div class="logout">
+          <i class="fas fa-sign-out-alt"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="pages">
+      <div class="generals">
+          <div class="title"><h3>GENERAL STATISTIC</h3></div>
+          <div class="date-input"><input type="date"><input type="date"><i class="fas fa-redo-alt"></i></i></div>
+          <div class="stats">
+            <div class="row">
+              <div><h3 class="name">Visit Signups</h3><h3>124</h3></div>
+              <div><h3 class="name">Net deposit</h3><h3>564</h3></div>
+            </div>
+            <div class="row">
+              <div><h3 class="name">FTD</h3><h3>556</h3></div>
+              <div><h3 class="name">Turn over</h3><h3>432</h3></div>
+            </div>
+          </div>
+          <div class="chart"><h3>Earnings chart</h3><canvas id="myChart"></canvas></div>
+      </div>
+      <div class="links">
+        <div class="title"><h3>LINKS</h3></div>
+        <div class="list">
+          <div class="button"><i class="fas fa-plus"></i><p>add new</p></div>
+          <ul>
+              <li>
+                <div class="name"><h3>Home page</h3></div>
+                <div class="hyperlink"><p>http://www.homepage.com</p></div>
+                <div class="icons"><i class="fas fa-share-alt"></i><i class="far fa-trash-alt"></i></div>
+              </li>
+              <li>
+                <div class="name"><h3 class="name">Currently offer</h3></div>
+                <div class="hyperlink"><p>http://www.currentlyoffer.com</p></div>
+                <div class="icons"><i class="fas fa-share-alt"></i><i class="far fa-trash-alt"></i></div>
+              </li>
+              <li>
+                <div class="name"><h3 class="name">Blurprix</h3></div>
+                <div class="hyperlink"><p>http://www.bluprix.com</p></div>
+                <div class="icons"><i class="fas fa-share-alt"></i><i class="far fa-trash-alt"></i></div>
+              </li>
+              <li>
+                <div class="name"><h3 class="name">Your site</h3></div>
+                <div class="hyperlink"><p>http://www.yoursite.com</p></div>
+                <div class="icons"><i class="fas fa-share-alt"></i><i class="far fa-trash-alt"></i></div>
+              </li>
+              <li>
+                <div class="name"><h3 class="name">Google</h3></div>
+                <div class="hyperlink"><p>http://www.google.com</p></div>
+                <div class="icons"><i class="fas fa-share-alt"></i><i class="far fa-trash-alt"></i></div>
+              </li>
+              <li>
+                <div class="name"><h3 class="name">Facebook</h3></div>
+                <div class="hyperlink"><p>http://www.facebook.com</p></div>
+                <div class="icons"><i class="fas fa-share-alt"></i><i class="far fa-trash-alt"></i></div>
+              </li>
+              <li>
+                <div class="name"><h3 class="name">Dashboard</h3></div>
+                <div class="hyperlink"><p>http://www.dashboard.com</p></div>
+                <div class="icons"><i class="fas fa-share-alt"></i><i class="far fa-trash-alt"></i></div>
+              </li>
+              <li>
+                <div class="name"><h3 class="name">Blurax</h3></div>
+                <div class="hyperlink"><p>http://www.blurax.com</p></div>
+                <div class="icons"><i class="fas fa-share-alt"></i><i class="far fa-trash-alt"></i></div>
+              </li>
+              <li>
+                <div class="name"><h3 class="name">Piece of Wine</h3></div>
+                <div class="hyperlink"><p>http://www.pieceofwine.com</p></div>
+                <div class="icons"><i class="fas fa-share-alt"></i><i class="far fa-trash-alt"></i></div>
+              </li>
+              <li>
+                <div class="name"><h3 class="name">Twitter</h3></div>
+                <div class="hyperlink"><p>http://www.twitter.com</p></div>
+                <div class="icons"><i class="fas fa-share-alt"></i><i class="far fa-trash-alt"></i></div>
+              </li>
+          </ul>
+          <div class="button"><i class="fas fa-plus"></i><p>add new</p></div>
+        </div>
+      </div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
