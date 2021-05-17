@@ -214,6 +214,10 @@ body {
   width: 30px;
 }
 
+.sidebar .massanger {
+  flex-direction: column;
+}
+
 .sidebar .massanger h3 {
   margin: 25px 0 0 18px;
   color: #999999;
@@ -280,6 +284,7 @@ body {
 
 .sidebar .mobile-logout {
   display: none;
+  visibility: hidden;
 }
 
 // Pages
@@ -552,8 +557,8 @@ body {
 
   .sidebar .mobile-topbar .container .bell i::after {
     position: absolute;
-    top: 95;
-    right: 80;
+    top: 100px;
+    right: 83px;
     content: '';
     display: block;
     height: 10px;
@@ -591,6 +596,7 @@ body {
 
   .sidebar .mobile-logout {
     display: block;
+    visibility: visible;
   }
 
   .sidebar .mobile-logout .logout {
@@ -601,7 +607,7 @@ body {
     height: 60px;
     align-items: center;
     justify-content: center;
-    min-width: fit-content;
+    width: 190px;
     background-color: #ff6666;
     border-radius: 5px;
   }
@@ -667,10 +673,12 @@ body {
     margin-right: 0;
   }
 
+  .sidebar .massanger {
+    display: none;
+    flex-direction: column;
+  }
   .sidebar .massanger .manager img {
-    position: relative;
     margin-right: 30px;
-    margin-top: 10px;
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -696,7 +704,15 @@ body {
     transform: scale(1.2);
   }
 
+  .sidebar .mobile-topbar .container .bell i::after {
+    top: 95px;
+  }
+
   .sidebar .mobile-topbar .container .user {
+    display: none;
+  }
+
+  .sidebar .mobile-logout {
     display: none;
   }
 }
