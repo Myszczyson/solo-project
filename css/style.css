@@ -706,6 +706,7 @@ body {
   .pages .generals .stats .row {
     display: -ms-flexbox;
     display: flex;
+    width: 100%;
     -ms-flex-direction: column;
         flex-direction: column;
   }
@@ -770,8 +771,9 @@ body {
   }
   .pages .links .list ul li .icons {
     position: absolute;
-    padding-top: 20px;
-    padding-left: 190px;
+    padding-top: 0;
+    padding-bottom: 120px;
+    padding-left: 130px;
     top: 5;
   }
 }
