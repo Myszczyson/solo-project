@@ -761,14 +761,53 @@ body {
 }
 
 @media (max-width: 300px) {
+  .pages {
+    font-size: 10px;
+  }
+  .pages .generals .date-input {
+    transform: scale(0.7);
+    padding: 20px 0 20px 0;
+  }
+
+  .pages .generals .date-input input {
+    width: 100%;
+  }
+
+  .pages .generals .stats .row div {
+    width: 100%;
+  }
+
   .pages .links .list ul li .icons {
-    padding-top: 20px;
-    padding-left: 100px;
+    position: relative;
   }
 
   @media (max-width: 280px) {
+    .pages .generals .chart h3 {
+      padding: 20px 0 20px 0;
+    }
     .pages .links .list ul li .icons {
-      padding-left: 80px;
+      padding: 0 0 10px 0;
+    }
+
+    .pages .links .list ul li .hyperlink p {
+      word-wrap: break-word;
+    }
+
+    .sidebar {
+      font-size: 10;
+    }
+
+    .sidebar .mobile-topbar .container .bell i::after {
+      top: 104px;
+      right: 51px;
+    }
+
+    .sidebar .massanger .manager img {
+      top: 12px;
+      left: 0px;
+    }
+    .open {
+      width: 120px !important;
     }
   }
 }
