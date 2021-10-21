@@ -1,2 +1,2 @@
-# soloproject
-https://myszczyson.github.io/soloproject/
+# First-project based on basic JS, HTML, CSS
+https://myszczyson.github.io/Solo-Project/
